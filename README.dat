@@ -2,10 +2,15 @@
 ###################################################################
 ##### Simple Dose Evaluator for Boron Neutron Capture Therapy #####
 #####                       (SiDE4BNCT)                       #####
+#####              Version 1.0 (10th March 2022)              #####
+##### Akihisa ISHIKAWA, Kenichi WATANABE, Sachiko YOSHIHASHI, #####
+##### Yoshinori SAKURAI, Hiroaki KUMADA, Hiroki TANAKA, Akira #####
+#####               URITANI & Yoshiaki KIYANAGI               #####
 ###################################################################
 ###################################################################
 
 This is a user manual for the code SiDE4BNCT.
+(Revised on 30th March 2022)
 
 The SiDE4BNCT is composed of following three main codes:
   1) 001_tab.cpp
