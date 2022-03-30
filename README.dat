@@ -34,3 +34,9 @@ For example, the file names of input and output are defined at line 230 and 197,
 This code computes the dose distribution and dose indexes.
 The dose restrictions to compute the dose distribution can be given arbitrarily.
 The restriction items are mucosa dose, skin dose, and the other normal tissue dose.
+
+!!! CAUTION !!!
+Above codes are offered as zip files here.
+These zip files includes the main codes and a part of other items only.
+The energy spectra in the phantom for monoenergetic neutron and gamma-ray should be loaded in the "PHITSresults" directory.
+So please contact us or prepare them by yourself before use.
