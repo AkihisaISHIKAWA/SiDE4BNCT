@@ -1,0 +1,31 @@
+###################################################################
+###################################################################
+##### Simple Dose Evaluator for Boron Neutron Capture Therapy #####
+#####                       (SiDE4BNCT)                       #####
+###################################################################
+###################################################################
+
+This is a user manual for the code SiDE4BNCT.
+
+The SiDE4BNCT is composed of following three main codes:
+  1) 001_tab.cpp
+  2) 002_calc.cpp
+  3) 003_ad.py
+
+[ 001_tab.cpp ]
+This code computes the DPF table data.
+The code is prepared for each of neutron and primary gamma-ray.
+The radiobiological coefficients, such as RBE, CBE and kerma, are defined here.
+
+[ 002_calc.cpp ]
+This code computes the dose rate distribution in the phantom.
+The code is prepared for each of neutron and primary gamma-ray.
+Input energy spectra are needed to be specified here.
+The input spectrum file should be located in the "spectra" directory.
+Please rewrite the file name of the input spectrum and output distribution. 
+For example, the file names of input and output are defined at line 230 and 197, respectively.
+
+[ 003_ad.py ]
+This code computes the dose distribution and dose indexes.
+The dose restrictions to compute the dose distribution can be given arbitrarily.
+The restriction items are mucosa dose, skin dose, and the other normal tissue dose.
